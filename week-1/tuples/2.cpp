@@ -1,7 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <tuple>
+#include <algorithm>
 #include <map>
+#include <string>
+#include <tuple>
+#include <vector>
 
 using namespace std;
 
@@ -24,11 +25,9 @@ TaskStatus Next(TaskStatus task_status) {
   return static_cast<TaskStatus>(static_cast<int>(task_status) + 1);
 }
 
-#ifdef LOCAL
 // Объявляем тип-синоним для map<TaskStatus, int>,
 // позволяющего хранить количество задач каждого статуса
 using TasksInfo = map<TaskStatus, int>;
-#endif
 
 class TeamTasks {
 public:
@@ -111,6 +110,7 @@ tuple<TasksInfo, TasksInfo> TeamTasks::PerformPersonTasks(
   
   return {updated_tasks, untouched_tasks};
 }
+
 
 #ifdef LOCAL
 // Принимаем словарь по значению, чтобы иметь возможность
