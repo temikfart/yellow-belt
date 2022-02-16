@@ -37,4 +37,6 @@ int main() {
     }
     cout << v[i];
   }
+  
+  return 0;
 }

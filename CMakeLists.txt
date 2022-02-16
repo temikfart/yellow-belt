@@ -4,4 +4,4 @@ project(yellow_belt)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(yellow_belt
-        week-1/int_types/1.cpp)
+        week-1/int_types/2.cpp)
