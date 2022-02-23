@@ -4,4 +4,4 @@ project(yellow_belt)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(yellow_belt
-        week-2/decomposition/starter.cpp)
+        week-2/unit-testing/1.cpp)
