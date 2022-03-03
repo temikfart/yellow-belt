@@ -4,4 +4,4 @@ project(yellow_belt)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(yellow_belt
-        week-2/unit-testing/4.cpp)
+        week-3/1/sum_reverse_sort.cpp)
