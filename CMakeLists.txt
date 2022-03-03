@@ -4,4 +4,4 @@ project(yellow_belt)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(yellow_belt
-        week-4/iterators-into/1.cpp)
+        week-4/iterators-into/2.cpp)
